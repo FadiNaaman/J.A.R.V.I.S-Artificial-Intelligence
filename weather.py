@@ -31,7 +31,7 @@ def get_weather_data(json_data, city):
     return weather_details + ("The weather in {} is currently {} with a temperature of {} degrees and wind speeds reaching {} kilometres per hour".format(city, weather_type, temperature, wind_speed)) # def for weather collection
 
 def weather():
-    api_address = 'https://api.openweathermap.org/data/2.5/weather?q=peterborough,ca&appid=c41d8ed714e180a9a3f59cee54beb4a5' #from openweather.org
+    api_address = 'https://api.openweathermap.org/data/2.5/weather?q=peterborough,ca&appid=[Redacted appid for privacy security]' #from openweather.org
     city = ('peterborough') #input("City Name : ")
     units_format = "&units=metric" #sets units
     final_url = api_address + units_format #this takes original URL and changes city etc.
